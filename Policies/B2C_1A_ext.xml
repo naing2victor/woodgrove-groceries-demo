@@ -20,8 +20,8 @@
 
         <TechnicalProfile Id="AzureActiveDirectoryStore-Common">
           <Metadata>
-            <Item Key="ApplicationObjectId">d8817253-63f7-42a7-9420-dd62f59dd3f3</Item>
-            <Item Key="ClientId">2ec06a55-5091-472e-9c01-8526946b848f</Item>
+            <Item Key="ApplicationObjectId">2230eecc-b986-40a6-a3fc-644b9a37fa8d</Item>
+            <Item Key="ClientId">75334539-637c-4378-b47d-dbddc4d263dc</Item>
           </Metadata>
 
           <OutputClaims>
@@ -41,7 +41,7 @@
       <TechnicalProfiles>
         <TechnicalProfile Id="AzureApplicationInsights-Common">
           <Metadata>
-            <Item Key="InstrumentationKey"> -- App Insights Instrumentation Key -- </Item>
+            <Item Key="InstrumentationKey">2ac026d2-c690-483b-bd1e-d3bf2d7efd1c</Item>
           </Metadata>
         </TechnicalProfile>
       </TechnicalProfiles>
@@ -53,12 +53,12 @@
 
         <TechnicalProfile Id="LocalAccount-OpenIdConnect">
           <Metadata>
-            <Item Key="client_id">ProxyIdentityExperienceFrameworkAppId</Item>
-            <Item Key="IdTokenAudience">IdentityExperienceFrameworkAppId</Item>
+            <Item Key="client_id">74265fad-887e-4b3b-a367-0432c4721779</Item>
+            <Item Key="IdTokenAudience">fe2fe8e7-d143-469c-9e32-06ff514a2ce0</Item>
           </Metadata>
           <InputClaims>
-            <InputClaim ClaimTypeReferenceId="clientId" PartnerClaimType="client_id" DefaultValue="ProxyIdentityExperienceFrameworkAppId" />
-            <InputClaim ClaimTypeReferenceId="resource" DefaultValue="IdentityExperienceFrameworkAppId" />
+            <InputClaim ClaimTypeReferenceId="clientId" PartnerClaimType="client_id" DefaultValue="74265fad-887e-4b3b-a367-0432c4721779" />
+            <InputClaim ClaimTypeReferenceId="resource" DefaultValue="fe2fe8e7-d143-469c-9e32-06ff514a2ce0" />
           </InputClaims>
         </TechnicalProfile>
 
@@ -84,7 +84,7 @@
 
         <TechnicalProfile Id="Facebook-OAUTH">
           <Metadata>
-            <Item Key="client_id">facebook_clientid</Item>
+            <Item Key="client_id">989857081456623</Item>
           </Metadata>
         </TechnicalProfile>
 

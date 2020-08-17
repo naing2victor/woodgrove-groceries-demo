@@ -2626,7 +2626,7 @@
           <Metadata>
 
             <!--Sample action required: replace with your endpoint location -->
-            <Item Key="METADATA">https://-- deployed app location url --.azurewebsites.net/api/Oidc/.well-known/openid-configuration</Item>
+            <Item Key="METADATA">https://naingnainghtun.azurewebsites.net/api/Oidc/.well-known/openid-configuration</Item>
 
             <!-- <Item Key="IdTokenAudience">your_optional_audience_override</Item> -->
 
@@ -2812,7 +2812,7 @@
           <DisplayName>Validate User Account Id</DisplayName>
           <Protocol Name="Proprietary" Handler="Web.TPEngine.Providers.RestfulProvider, Web.TPEngine, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" />
           <Metadata>
-            <Item Key="ServiceUrl">https://-- deployed app location url --.azurewebsites.net/api/ThrowError</Item>
+            <Item Key="ServiceUrl">https://naingnainghtun.azurewebsites.net/api/ThrowError</Item>
             <Item Key="AuthenticationType">None</Item>
             <Item Key="SendClaimsIn">Body</Item>
             <Item Key="AllowInsecureAuthInProduction">true</Item>
@@ -2824,7 +2824,7 @@
           <DisplayName>Validate User Account Id</DisplayName>
           <Protocol Name="Proprietary" Handler="Web.TPEngine.Providers.RestfulProvider, Web.TPEngine, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" />
           <Metadata>
-            <Item Key="ServiceUrl">https://-- deployed app location url --.azurewebsites.net/api/ValidateUserAccountId</Item>
+            <Item Key="ServiceUrl">https://naingnainghtun.azurewebsites.net/api/ValidateUserAccountId</Item>
             <Item Key="AuthenticationType">None</Item>
             <Item Key="SendClaimsIn">Body</Item>
             <Item Key="AllowInsecureAuthInProduction">true</Item>
@@ -2839,7 +2839,7 @@
           <DisplayName>Calculate User Profile Complete Percentage</DisplayName>
           <Protocol Name="Proprietary" Handler="Web.TPEngine.Providers.RestfulProvider, Web.TPEngine, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" />
           <Metadata>
-            <Item Key="ServiceUrl">https://-- deployed app location url --.azurewebsites.net/api/UserProfileCalcluateProfileCompletePercentage</Item>
+            <Item Key="ServiceUrl">https://naingnainghtun.azurewebsites.net/api/UserProfileCalcluateProfileCompletePercentage</Item>
             <Item Key="AuthenticationType">None</Item>
             <Item Key="SendClaimsIn">Body</Item>
             <Item Key="AllowInsecureAuthInProduction">true</Item>
@@ -2861,7 +2861,7 @@
           <DisplayName>Send invitation to external users</DisplayName>
           <Protocol Name="Proprietary" Handler="Web.TPEngine.Providers.RestfulProvider, Web.TPEngine, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" />
           <Metadata>
-            <Item Key="ServiceUrl">https://-- deployed app location url --.azurewebsites.net/api/MailService/MakeInviteUrl</Item>
+            <Item Key="ServiceUrl">https://naingnainghtun.azurewebsites.net/api/MailService/MakeInviteUrl</Item>
             <Item Key="AuthenticationType">None</Item>
             <Item Key="SendClaimsIn">Body</Item>
             <Item Key="AllowInsecureAuthInProduction">true</Item>
@@ -2891,7 +2891,7 @@
           <DisplayName>Send Email verification code to the user email</DisplayName>
           <Protocol Name="Proprietary" Handler="Web.TPEngine.Providers.RestfulProvider, Web.TPEngine, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" />
           <Metadata>
-            <Item Key="ServiceUrl">https://-- deployed app location url --.azurewebsites.net/api/MailService/SendEmailCode</Item>
+            <Item Key="ServiceUrl">https://naingnainghtun.azurewebsites.net/api/MailService/SendEmailCode</Item>
             <Item Key="AuthenticationType">None</Item>
             <Item Key="SendClaimsIn">Body</Item>
             <Item Key="AllowInsecureAuthInProduction">true</Item>
@@ -2912,7 +2912,7 @@
           <DisplayName>Send user name to the user email</DisplayName>
           <Protocol Name="Proprietary" Handler="Web.TPEngine.Providers.RestfulProvider, Web.TPEngine, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" />
           <Metadata>
-            <Item Key="ServiceUrl">https://-- deployed app location url --.azurewebsites.net/api/MailService/SendUsernameToEmail</Item>
+            <Item Key="ServiceUrl">https://naingnainghtun.azurewebsites.net/api/MailService/SendUsernameToEmail</Item>
             <Item Key="AuthenticationType">None</Item>
             <Item Key="SendClaimsIn">Body</Item>
             <Item Key="AllowInsecureAuthInProduction">true</Item>
@@ -2936,7 +2936,7 @@
           <DisplayName>Generate TOTP Web Hook Azure Function</DisplayName>
           <Protocol Name="Proprietary" Handler="Web.TPEngine.Providers.RestfulProvider, Web.TPEngine, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" />
           <Metadata>
-            <Item Key="ServiceUrl">https://-- deployed app location url --.azurewebsites.net/api/identity/Generate</Item>
+            <Item Key="ServiceUrl">https://naingnainghtun.azurewebsites.net/api/identity/Generate</Item>
             <Item Key="AuthenticationType">None</Item>
             <Item Key="SendClaimsIn">Body</Item>
             <Item Key="AllowInsecureAuthInProduction">true</Item>
@@ -2957,7 +2957,7 @@
           <DisplayName>Verify TOTP Web Hook Azure Function</DisplayName>
           <Protocol Name="Proprietary" Handler="Web.TPEngine.Providers.RestfulProvider, Web.TPEngine, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" />
           <Metadata>
-            <Item Key="ServiceUrl">https://-- deployed app location url --.azurewebsites.net/api/identity/verify</Item>
+            <Item Key="ServiceUrl">https://naingnainghtun.azurewebsites.net/api/identity/verify</Item>
             <Item Key="AuthenticationType">None</Item>
             <Item Key="SendClaimsIn">Body</Item>
             <Item Key="AllowInsecureAuthInProduction">true</Item>
