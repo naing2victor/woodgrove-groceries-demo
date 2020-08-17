@@ -41,7 +41,7 @@
       <TechnicalProfiles>
         <TechnicalProfile Id="AzureApplicationInsights-Common">
           <Metadata>
-            <Item Key="InstrumentationKey">2ac026d2-c690-483b-bd1e-d3bf2d7efd1c</Item>
+            <Item Key="InstrumentationKey">8773f481-cc14-45c0-84d9-93d1d2918e16</Item>
           </Metadata>
         </TechnicalProfile>
       </TechnicalProfiles>
